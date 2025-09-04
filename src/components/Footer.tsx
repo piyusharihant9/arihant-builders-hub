@@ -40,6 +40,7 @@ const Footer = () => {
               <li>AAC Blocks</li>
               <li>Gypsum Powder</li>
               <li>Profile Sheets</li>
+              <li>MS Plates</li>
               <li>MS & GI Pipes</li>
             </ul>
           </div>
