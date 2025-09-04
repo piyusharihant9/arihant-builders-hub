@@ -14,7 +14,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 98765 43210", "+91 98765 43211"]
+      details: ["+91 98702 58809", "+91 98697 82132"]
     },
     {
       icon: Mail,
@@ -103,7 +103,7 @@ const ContactSection = () => {
                     <label className="block text-sm font-medium text-foreground mb-2">
                       Phone
                     </label>
-                    <Input placeholder="+91 98765 43210" />
+                    <Input placeholder="+91 98702 58809" />
                   </div>
                 </div>
 
