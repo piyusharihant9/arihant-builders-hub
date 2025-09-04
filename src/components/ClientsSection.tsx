@@ -4,29 +4,22 @@ import { Star, MapPin } from "lucide-react";
 const ClientsSection = () => {
   const clients = [
     { name: "Acme Group Mumbai", location: "Mumbai", projects: "25+" },
-    { name: "Mayfair Housing Mumbai", location: "Mumbai", projects: "22+" },
-    { name: "Kalptaru Infraprojects Mumbai", location: "Mumbai", projects: "32+" },
-    { name: "Silver Group Mumbai", location: "Mumbai", projects: "18+" },
-    { name: "Rustomjee Group", location: "Mumbai", projects: "28+" },
-    { name: "Viva Housing", location: "Mumbai", projects: "15+" },
-    { name: "APCO Infra", location: "Pan India", projects: "20+" },
-    { name: "Builder Associates", location: "Delhi NCR", projects: "12+" },
+    { name: "Mayfair Housing", location: "Delhi NCR", projects: "18+" },
+    { name: "Kalptaru Infraprojects", location: "Pune", projects: "32+" },
+    { name: "Silver Group", location: "Bangalore", projects: "15+" },
+    { name: "APCO Infra", location: "Chennai", projects: "20+" },
+    { name: "Builder Associates", location: "Hyderabad", projects: "12+" },
   ];
 
   const testimonials = [
     {
-      text: "Arihant Enterprise has been our go-to supplier for TMT steel and cement across multiple Mumbai projects. Their quality and reliability have never let us down.",
-      client: "Project Manager, Acme Group Mumbai",
+      text: "Arihant Enterprise has been our go-to supplier for TMT steel and cement. Their quality and reliability have never let us down.",
+      client: "Project Manager, Acme Group",
       rating: 5
     },
     {
-      text: "Excellent service and competitive pricing. They understand the urgency of construction timelines and deliver accordingly to all our Mumbai sites.",
-      client: "Senior Engineer, Kalptaru Infraprojects Mumbai",
-      rating: 5
-    },
-    {
-      text: "We've worked with Arihant Enterprise for over 8 years. Their consistent quality of materials and timely delivery makes them our preferred partner.",
-      client: "Construction Head, Rustomjee Group",
+      text: "Excellent service and competitive pricing. They understand the urgency of construction timelines and deliver accordingly.",
+      client: "Senior Engineer, Kalptaru Infraprojects",
       rating: 5
     }
   ];
@@ -39,8 +32,8 @@ const ClientsSection = () => {
             Trusted by <span className="text-construction-blue">Leading Developers</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We've built long-term partnerships with Mumbai's most prestigious developers 
-            and construction companies across India.
+            We've built long-term partnerships with some of India's most prestigious 
+            construction companies and developers.
           </p>
         </div>
 
@@ -66,7 +59,7 @@ const ClientsSection = () => {
         </div>
 
         {/* Testimonials */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}

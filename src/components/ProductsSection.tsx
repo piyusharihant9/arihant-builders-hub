@@ -42,12 +42,6 @@ const ProductsSection = () => {
     },
     {
       icon: Wrench,
-      name: "MS Plates",
-      description: "Mild steel plates in various thicknesses for structural and fabrication work",
-      features: ["Multiple thicknesses", "Cut to size", "Quality assured", "Bulk quantities"]
-    },
-    {
-      icon: Wrench,
       name: "MS & GI Pipes",
       description: "Mild steel and galvanized iron pipes for plumbing and structural use",
       features: ["Various diameters", "ISI marked", "Seamless & welded", "Bulk quantities"]
@@ -67,18 +61,18 @@ const ProductsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={index} className="group hover:shadow-card transition-all duration-300 border-border/50">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="bg-construction-blue/10 p-2.5 rounded-xl mr-3">
-                    <product.icon className="h-6 w-6 text-construction-blue" />
+              <CardContent className="p-8">
+                <div className="flex items-center mb-6">
+                  <div className="bg-construction-blue/10 p-3 rounded-xl mr-4">
+                    <product.icon className="h-8 w-8 text-construction-blue" />
                   </div>
-                  <h3 className="text-lg font-semibold text-foreground">{product.name}</h3>
+                  <h3 className="text-xl font-semibold text-foreground">{product.name}</h3>
                 </div>
                 
-                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+                <p className="text-muted-foreground mb-6 leading-relaxed">
                   {product.description}
                 </p>
 
