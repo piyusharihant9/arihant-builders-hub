@@ -4,22 +4,23 @@ import { Star, MapPin } from "lucide-react";
 const ClientsSection = () => {
   const clients = [
     { name: "Acme Group Mumbai", location: "Mumbai", projects: "25+" },
-    { name: "Mayfair Housing", location: "Delhi NCR", projects: "18+" },
-    { name: "Kalptaru Infraprojects", location: "Pune", projects: "32+" },
-    { name: "Silver Group", location: "Bangalore", projects: "15+" },
+    { name: "Mayfair Housing Mumbai", location: "Mumbai", projects: "18+" },
+    { name: "Kalptaru Infraprojects Mumbai", location: "Mumbai", projects: "32+" },
+    { name: "Silver Group Mumbai", location: "Mumbai", projects: "15+" },
     { name: "APCO Infra", location: "Chennai", projects: "20+" },
-    { name: "Builder Associates", location: "Hyderabad", projects: "12+" },
+    { name: "Rustomjee Group", location: "Mumbai", projects: "28+" },
+    { name: "Viva Housing", location: "Mumbai", projects: "22+" },
   ];
 
   const testimonials = [
     {
-      text: "Arihant Enterprise has been our go-to supplier for TMT steel and cement. Their quality and reliability have never let us down.",
-      client: "Project Manager, Acme Group",
+      text: "Arihant Enterprise has been our go-to supplier for TMT steel and cement. Their quality and reliability have never let us down in our Mumbai projects.",
+      client: "Project Manager, Acme Group Mumbai",
       rating: 5
     },
     {
-      text: "Excellent service and competitive pricing. They understand the urgency of construction timelines and deliver accordingly.",
-      client: "Senior Engineer, Kalptaru Infraprojects",
+      text: "Excellent service and competitive pricing. They understand the urgency of construction timelines and deliver accordingly across all our Mumbai sites.",
+      client: "Senior Engineer, Kalptaru Infraprojects Mumbai",
       rating: 5
     }
   ];
@@ -33,7 +34,7 @@ const ClientsSection = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             We've built long-term partnerships with some of India's most prestigious 
-            construction companies and developers.
+            construction companies and developers, especially in Mumbai.
           </p>
         </div>
 

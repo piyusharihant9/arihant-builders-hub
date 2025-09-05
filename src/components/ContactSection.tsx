@@ -9,17 +9,17 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Location",
-      details: ["Mumbai, Maharashtra", "Pan-India Delivery"]
+      details: ["16 Vallabhs society 90 ft road", "Ghatkopar East, Mumbai 400075"]
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 98765 43210", "+91 98765 43211"]
+      details: ["+91 98697 82132"]
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@arihantenterprise.com", "sales@arihantenterprise.com"]
+      details: ["piyush.arihant9@gmail.com"]
     },
     {
       icon: Clock,
@@ -67,7 +67,7 @@ const ContactSection = () => {
               <h4 className="font-semibold text-foreground mb-2">Quick Response Guarantee</h4>
               <p className="text-muted-foreground text-sm">
                 We respond to all inquiries within 2 hours during business hours. 
-                For urgent requirements, call us directly.
+                For urgent requirements, call us directly at +91 98697 82132.
               </p>
             </div>
           </div>
@@ -103,7 +103,7 @@ const ContactSection = () => {
                     <label className="block text-sm font-medium text-foreground mb-2">
                       Phone
                     </label>
-                    <Input placeholder="+91 98765 43210" />
+                    <Input placeholder="+91 98697 82132" />
                   </div>
                 </div>
 
@@ -111,7 +111,7 @@ const ContactSection = () => {
                   <label className="block text-sm font-medium text-foreground mb-2">
                     Materials Required
                   </label>
-                  <Input placeholder="TMT Steel, Cement, AAC Blocks, etc." />
+                  <Input placeholder="TMT Steel, Cement, AAC Blocks, Structural Steel, etc." />
                 </div>
 
                 <div>

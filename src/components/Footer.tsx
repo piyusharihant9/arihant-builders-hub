@@ -18,15 +18,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center">
                 <Mail className="h-4 w-4 text-construction-orange mr-3" />
-                <span className="text-white/80">info@arihantenterprise.com</span>
+                <span className="text-white/80">piyush.arihant9@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 text-construction-orange mr-3" />
-                <span className="text-white/80">+91 98765 43210</span>
+                <span className="text-white/80">+91 98697 82132</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 text-construction-orange mr-3" />
-                <span className="text-white/80">Mumbai, Maharashtra</span>
+                <span className="text-white/80">16 Vallabhs society, Ghatkopar East, Mumbai 400075</span>
               </div>
             </div>
           </div>
@@ -40,6 +40,8 @@ const Footer = () => {
               <li>AAC Blocks</li>
               <li>Gypsum Powder</li>
               <li>Profile Sheets</li>
+              <li>MS Plates</li>
+              <li>Structural Steel</li>
               <li>MS & GI Pipes</li>
             </ul>
           </div>
