@@ -18,13 +18,13 @@ const ClientsSection = () => {
 
   const testimonials = [
     {
-      text: "Arihant Enterprise has consistently delivered quality construction materials for our projects. Their reliability and timely delivery have made them an invaluable partner.",
-      client: "Project Manager, Raheja Universal",
+      text: "We've been working with Arihant Enterprise for multiple high-rise projects. Their supply of TMT steel and structural materials has been consistently top-notch with zero delays.",
+      client: "Construction Head, Capacit'e Infraprojects",
       rating: 5
     },
     {
-      text: "Excellent quality TMT steel and cement supply. Their understanding of large-scale project requirements and competitive pricing makes them our preferred supplier.",
-      client: "Senior Engineer, Tata Projects",
+      text: "Reliable partner for all our construction material needs across our UP projects. Their quality assurance and competitive pricing have made them our preferred supplier for AAC blocks and cement.",
+      client: "Project Director, APCO Infra",
       rating: 5
     }
   ];
