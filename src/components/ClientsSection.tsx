@@ -1,30 +1,42 @@
 import { Star } from "lucide-react";
+import mayfairLogo from "@/assets/clients/mayfair-housing.png";
+import silverLogo from "@/assets/clients/silver-group.png";
+import supremeLogo from "@/assets/clients/supreme-group.png";
+import kalpataruLogo from "@/assets/clients/kalpataru.png";
+import rustomjeeLogo from "@/assets/clients/rustomjee.png";
 import rahejaLogo from "@/assets/clients/raheja-universal.png";
-import tataLogo from "@/assets/clients/tata-projects.png";
-import apcoLogo from "@/assets/clients/apco-infra.png";
-import bhoomiLogo from "@/assets/clients/bhoomi-realty.png";
-import capaciteLogo from "@/assets/clients/capacite.png";
 import indiabullsLogo from "@/assets/clients/indiabulls.png";
+import ltLogo from "@/assets/clients/lt-ecc.png";
+import capaciteLogo from "@/assets/clients/capacite.png";
+import vivaLogo from "@/assets/clients/viva-group.png";
+import satraLogo from "@/assets/clients/satra-corp.png";
+import jpLogo from "@/assets/clients/jp-infra.png";
 
 const ClientsSection = () => {
   const clients = [
-    { name: "Raheja Universal", logo: rahejaLogo },
-    { name: "Tata Projects", logo: tataLogo },
-    { name: "APCO Infra", logo: apcoLogo, location: "Uttar Pradesh" },
-    { name: "Bhoomi Realty", logo: bhoomiLogo },
-    { name: "Capacit'e Infraprojects", logo: capaciteLogo },
+    { name: "Mayfair Housing", logo: mayfairLogo, location: "Mumbai" },
+    { name: "Silver Group", logo: silverLogo, location: "Mumbai" },
+    { name: "Supreme Group", logo: supremeLogo, location: "Pune" },
+    { name: "Kalpataru Infraprojects", logo: kalpataruLogo, location: "Mumbai" },
+    { name: "Rustomjee Group", logo: rustomjeeLogo, location: "Mumbai" },
+    { name: "Raheja Universal", logo: rahejaLogo, location: "Mumbai" },
     { name: "Indiabulls Housing", logo: indiabullsLogo },
+    { name: "L&T ECC", logo: ltLogo },
+    { name: "Capacit'e Infraprojects", logo: capaciteLogo },
+    { name: "Viva Group", logo: vivaLogo },
+    { name: "Satra Corp", logo: satraLogo },
+    { name: "JP Infra", logo: jpLogo },
   ];
 
   const testimonials = [
     {
-      text: "We've been working with Arihant Enterprise for multiple high-rise projects. Their supply of TMT steel and structural materials has been consistently top-notch with zero delays.",
-      client: "Construction Head, Capacit'e Infraprojects",
+      text: "Arihant Enterprise has been our trusted partner for construction materials across multiple Mumbai projects. Their quality control and timely delivery are exceptional.",
+      client: "Senior Manager, Rustomjee Group",
       rating: 5
     },
     {
-      text: "Reliable partner for all our construction material needs across our UP projects. Their quality assurance and competitive pricing have made them our preferred supplier for AAC blocks and cement.",
-      client: "Project Director, APCO Infra",
+      text: "For our large-scale infrastructure projects, Arihant Enterprise consistently delivers top-grade TMT steel and structural materials. Their reliability is unmatched.",
+      client: "Project Head, L&T ECC",
       rating: 5
     }
   ];
@@ -43,7 +55,7 @@ const ClientsSection = () => {
         </div>
 
         {/* Client Logos Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-16">
           {clients.map((client, index) => (
             <div
               key={index}
