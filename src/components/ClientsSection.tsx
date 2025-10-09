@@ -1,26 +1,30 @@
-import { Badge } from "@/components/ui/badge";
-import { Star, MapPin } from "lucide-react";
+import { Star } from "lucide-react";
+import rahejaLogo from "@/assets/clients/raheja-universal.png";
+import tataLogo from "@/assets/clients/tata-projects.png";
+import apcoLogo from "@/assets/clients/apco-infra.png";
+import bhoomiLogo from "@/assets/clients/bhoomi-realty.png";
+import capaciteLogo from "@/assets/clients/capacite.png";
+import indiabullsLogo from "@/assets/clients/indiabulls.png";
 
 const ClientsSection = () => {
   const clients = [
-    { name: "Acme Group Mumbai", location: "Mumbai", projects: "25+" },
-    { name: "Mayfair Housing Mumbai", location: "Mumbai", projects: "18+" },
-    { name: "Kalptaru Infraprojects Mumbai", location: "Mumbai", projects: "32+" },
-    { name: "Silver Group Mumbai", location: "Mumbai", projects: "15+" },
-    { name: "APCO Infra", location: "Chennai", projects: "20+" },
-    { name: "Rustomjee Group", location: "Mumbai", projects: "28+" },
-    { name: "Viva Housing", location: "Mumbai", projects: "22+" },
+    { name: "Raheja Universal", logo: rahejaLogo },
+    { name: "Tata Projects", logo: tataLogo },
+    { name: "APCO Infra", logo: apcoLogo, location: "Uttar Pradesh" },
+    { name: "Bhoomi Realty", logo: bhoomiLogo },
+    { name: "Capacit'e Infraprojects", logo: capaciteLogo },
+    { name: "Indiabulls Housing", logo: indiabullsLogo },
   ];
 
   const testimonials = [
     {
-      text: "Arihant Enterprise has been our go-to supplier for TMT steel and cement. Their quality and reliability have never let us down in our Mumbai projects.",
-      client: "Project Manager, Acme Group Mumbai",
+      text: "Arihant Enterprise has consistently delivered quality construction materials for our projects. Their reliability and timely delivery have made them an invaluable partner.",
+      client: "Project Manager, Raheja Universal",
       rating: 5
     },
     {
-      text: "Excellent service and competitive pricing. They understand the urgency of construction timelines and deliver accordingly across all our Mumbai sites.",
-      client: "Senior Engineer, Kalptaru Infraprojects Mumbai",
+      text: "Excellent quality TMT steel and cement supply. Their understanding of large-scale project requirements and competitive pricing makes them our preferred supplier.",
+      client: "Senior Engineer, Tata Projects",
       rating: 5
     }
   ];
@@ -30,31 +34,32 @@ const ClientsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground mb-6">
-            Trusted by <span className="text-construction-blue">Leading Developers</span>
+            Trusted by <span className="text-construction-blue">India's Leading Developers</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             We've built long-term partnerships with some of India's most prestigious 
-            construction companies and developers, especially in Mumbai.
+            construction companies and infrastructure developers.
           </p>
         </div>
 
-        {/* Client Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        {/* Client Logos Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-16">
           {clients.map((client, index) => (
             <div
               key={index}
-              className="bg-card p-6 rounded-xl shadow-card border border-border/50 hover:shadow-lg transition-shadow"
+              className="bg-card p-8 rounded-xl shadow-card border border-border/50 hover:shadow-lg transition-all hover:-translate-y-1 flex flex-col items-center justify-center group"
             >
-              <div className="flex items-start justify-between mb-4">
-                <h3 className="font-semibold text-foreground text-lg">{client.name}</h3>
-                <Badge variant="secondary" className="text-xs">
-                  {client.projects} Projects
-                </Badge>
-              </div>
-              <div className="flex items-center text-muted-foreground">
-                <MapPin className="h-4 w-4 mr-2" />
-                <span className="text-sm">{client.location}</span>
-              </div>
+              <img 
+                src={client.logo} 
+                alt={`${client.name} logo`}
+                className="h-20 w-auto object-contain mb-4 grayscale group-hover:grayscale-0 transition-all"
+              />
+              <h3 className="font-semibold text-foreground text-center text-sm">
+                {client.name}
+              </h3>
+              {client.location && (
+                <p className="text-xs text-muted-foreground mt-1">{client.location}</p>
+              )}
             </div>
           ))}
         </div>
