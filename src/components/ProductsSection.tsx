@@ -9,9 +9,9 @@ import {
   Square,
   Zap
 } from "lucide-react";
-import tmtSteelImage from "@/assets/tmt-steel.jpg";
-import profileSheetsImage from "@/assets/profile-sheets.jpg";
-import gypsumPowderImage from "@/assets/gypsum-powder.jpg";
+import tmtSteelImage from "@/assets/tmt-steel.webp";
+import profileSheetsImage from "@/assets/profile-sheets.jpeg";
+import gypsumPowderImage from "@/assets/gypsum-powder.jpeg";
 import aacBlocksImage from "@/assets/aac-blocks.jpg";
 
 const ProductsSection = () => {
