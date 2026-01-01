@@ -15,6 +15,7 @@ import gypsumPowderImage from "@/assets/gypsum-powder.jpeg";
 import aacBlocksImage from "@/assets/aac-blocks.jpg";
 import structuralSteelImage from "@/assets/structural-steel.jfif";
 import pipesImage from "@/assets/pipes.jfif";
+import msPlatesImage from "@/assets/ms-plates.jfif";
 
 const ProductsSection = () => {
   const products = [
@@ -54,9 +55,10 @@ const ProductsSection = () => {
     },
     {
       icon: Square,
-      name: "MS Plates",
+      name: "MS, GI, GP Plates",
       description: "Mild steel plates for structural and fabrication applications",
-      features: ["Various thicknesses", "ISI marked", "Cut to size", "Bulk quantities"]
+      features: ["Various thicknesses", "ISI marked", "Cut to size", "Bulk quantities"],
+      image: msPlatesImage
     },
     {
       icon: Zap,
