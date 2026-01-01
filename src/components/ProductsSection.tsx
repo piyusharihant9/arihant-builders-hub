@@ -14,6 +14,7 @@ import profileSheetsImage from "@/assets/profile-sheets.jpeg";
 import gypsumPowderImage from "@/assets/gypsum-powder.jpeg";
 import aacBlocksImage from "@/assets/aac-blocks.jpg";
 import structuralSteelImage from "@/assets/structural-steel.jfif";
+import pipesImage from "@/assets/pipes.jfif";
 
 const ProductsSection = () => {
   const products = [
@@ -68,7 +69,8 @@ const ProductsSection = () => {
       icon: Wrench,
       name: "MS & GI Pipes",
       description: "Mild steel and galvanized iron pipes for plumbing and structural use",
-      features: ["Various diameters", "ISI marked", "Seamless & welded", "Bulk quantities"]
+      features: ["Various diameters", "ISI marked", "Seamless & welded", "Bulk quantities"],
+      image: pipesImage
     }
   ];
 
