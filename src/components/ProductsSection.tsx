@@ -13,6 +13,7 @@ import tmtSteelImage from "@/assets/tmt-steel.webp";
 import profileSheetsImage from "@/assets/profile-sheets.jpeg";
 import gypsumPowderImage from "@/assets/gypsum-powder.jpeg";
 import aacBlocksImage from "@/assets/aac-blocks.jpg";
+import structuralSteelImage from "@/assets/structural-steel.jfif";
 
 const ProductsSection = () => {
   const products = [
@@ -60,7 +61,8 @@ const ProductsSection = () => {
       icon: Zap,
       name: "Structural Steel",
       description: "MS Angles, Beams, and Channels for structural construction",
-      features: ["MS Angles", "MS Beams", "MS Channels", "Custom lengths"]
+      features: ["MS Angles", "MS Beams", "MS Channels", "Custom lengths"],
+      image: structuralSteelImage
     },
     {
       icon: Wrench,
