@@ -31,8 +31,8 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Arihant Enterprise was started by Late Mr. Piyush Ratilal Sheth, the founder of the 
-              organisation, in 1982. With extensive experience in retail as well as project supplies, 
+              With more than 40 years of experience, Arihant Enterprise was started by Late Mr. Piyush Ratilal Sheth, 
+              the founder of the organisation, in 1982. With extensive experience in retail as well as project supplies, 
               he built a strong foundation for the business. Later, the baton was handed to Raj Piyush 
               Sheth for expansion and bringing new age techniques to the business. Today, we serve 
               major developers and contractors with a comprehensive range of high-quality construction materials.
