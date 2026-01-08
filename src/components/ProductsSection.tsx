@@ -16,6 +16,7 @@ import aacBlocksImage from "@/assets/aac-blocks.jpg";
 import structuralSteelImage from "@/assets/structural-steel.jfif";
 import pipesImage from "@/assets/pipes.jfif";
 import msPlatesImage from "@/assets/ms-plates.jfif";
+import cementImage from "@/assets/cement.jpeg";
 
 const ProductsSection = () => {
   const products = [
@@ -30,7 +31,8 @@ const ProductsSection = () => {
       icon: Building,
       name: "Cement",
       description: "Premium quality cement from top manufacturers for all construction needs",
-      features: ["OPC 43", "OPC 53", "PPC", "Bulk supply available"]
+      features: ["OPC 43", "OPC 53", "PPC", "Bulk supply available"],
+      image: cementImage
     },
     {
       icon: HardHat,
