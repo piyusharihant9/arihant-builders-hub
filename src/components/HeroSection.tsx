@@ -46,7 +46,7 @@ const HeroSection = () => {
                 <Shield className="h-8 w-8 text-construction-orange" />
               </div>
               <div>
-                <p className="text-2xl font-bold text-white">15+</p>
+                <p className="text-2xl font-bold text-white">40+</p>
                 <p className="text-white/80">Years Experience</p>
               </div>
             </div>
