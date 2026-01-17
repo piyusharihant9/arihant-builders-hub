@@ -35,8 +35,8 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <Button variant="professional" size="sm">
-              Get Quote
+            <Button variant="professional" size="sm" asChild>
+              <a href="#contact">Get Quote</a>
             </Button>
           </div>
 
@@ -67,8 +67,8 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button variant="professional" size="sm" className="w-full">
-                  Get Quote
+                <Button variant="professional" size="sm" className="w-full" asChild>
+                  <a href="#contact" onClick={() => setIsOpen(false)}>Get Quote</a>
                 </Button>
               </div>
             </div>
